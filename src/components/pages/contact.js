@@ -10,6 +10,8 @@ export default function Contact() {
   <input placeholder='First and last name'></input>
   <h2>Email</h2>
   <input placeholder='Email Address'></input>
+  <h2>Message</h2>
+  <input placeholder></input>
 </section>
 <button>Submit</button>
 </div>
