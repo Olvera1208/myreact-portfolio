@@ -15,7 +15,7 @@ export default function PortfolioContainer() {
       case "Portfolio":
         return <Portfolio />;
       case "Resume":
-        return <Resume />;
+        return < Resume />;
       default:
         return <Contact />;
     }
