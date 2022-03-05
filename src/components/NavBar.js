@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/NavBar.css"
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
@@ -6,7 +7,7 @@ function NavBar({ currentPage, handlePageChange }) {
       <h1 id="header">Isiah Olvera</h1>
       <nav>
         <ul className="nav nav-tabs justify-content-end">
-          <li className="nav-item">
+        <li id="nav-item">
             <a
               href="#About"
               onClick={() => handlePageChange("About")}
@@ -16,7 +17,7 @@ function NavBar({ currentPage, handlePageChange }) {
               About 
             </a>
           </li>
-          <li className="nav-item">
+          <li id="nav-item">
             <a
               href="#Portfolio"
               onClick={() => handlePageChange("Portfolio")}
@@ -36,7 +37,7 @@ function NavBar({ currentPage, handlePageChange }) {
             Resume
             </a>
           </li>
-          <li className="nav-item">
+          <li id="nav-item">
             <a
               href="#contact"
               onClick={() => handlePageChange("contact")}
