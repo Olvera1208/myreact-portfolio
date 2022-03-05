@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/About.css"
 
  function About() {
   return (
     <div>
-      <h1 className='text-center'>About Me</h1>
+      <h1 id="aboutMe">About Me</h1>
       <p>
         My name is Isiah Olvera. I was born in Rancho Mirage CA, I played sports all through out
         my childhood all I knew was sports my childhood. After I graduated HighSchool I didn't really have a plan 
